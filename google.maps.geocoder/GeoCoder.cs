@@ -10,7 +10,7 @@ namespace google.maps.geocoder
 {
     class GeoCoder
     {
-        public GeoCodeResult GetCoordinates(String address, bool usesSensor)
+        public GeoCodeResult GetGeographicInfo(String address, bool usesSensor)
         {
             String strUrl = String.Empty;
 
