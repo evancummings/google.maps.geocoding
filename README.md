@@ -21,7 +21,7 @@ return a <tt>GeoCodeResponse</tt> object matching the Maps API JSON response.
 
 ### Making a geocoding request ###
 
-To make a geocode request, call the <tt>GeoCoder.GetCoordinates()</tt> method, passing in the geographic address and a flag to
+To make a geocode request, call the <tt>GeoCoder.GetGeographicInfo()</tt> method, passing in the geographic address and a flag to
 enable or disable sensor support. A <tt>GeoCodeResult</tt> object is returned.
 
     GeoCodeResult geoCodeResult = geoCoder.GetGeographicInfo("123 Main St, Anytown, CA", false);
